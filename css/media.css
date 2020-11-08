@@ -1,0 +1,15 @@
+@media (min-width: 1280px) {
+  .button {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .counter {
+    font-size: 308px;
+  }
+  .timer__milliseconds {
+    font-size: 135px;
+  }
+}
+/*# sourceMappingURL=media.css.map */

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+   
+   <div class="container">
+      <h1 class="title">Stopwatch JS</h1>
+      <div class="timer">
+         <div class="timer__inner" id="responsive_headline">
+            <div class="counter timer__hours">00</div>
+            <div class="counter timer__minutes">00</div>
+            <div class="counter timer__seconds">00</div>
+            <div class="counter timer__milliseconds">00</div>
+         </div>
+      </div>
+      <div class="splits">
+<!--          <div class="splits__item">
+            <div class="splits__index">1</div>
+            <div class="splits__main">
+               <div class="splits__split">00:00:00.00</div>
+               <div class="splits__lap">00:00:00.00</div>
+            </div>
+         </div> -->
+      </div>
+      <div class="buttons">
+         <button class="button reset inactive display"></button>
+         <button class="button laps"></button>
+         <button class="button main start display"></button>
+         <button class="button main pause"></button>
+         <button class="button restore"></button>
+      </div>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
